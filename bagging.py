@@ -1,3 +1,8 @@
+from sklearn.svm import SVC
+from sklearn.ensemble import BaggingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+
 setStuff = pd.read_csv("C:\\Users\\shado_000\\hw8_data.csv")
 
 Y = setStuff.iloc[:,0].values
